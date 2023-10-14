@@ -1,0 +1,53 @@
+.reactive-color-box
+{
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    margin-left: 30vw;
+    text-align: center;
+    border:2px groove black;
+    border-radius: 20px;
+    
+}
+
+.choice-button
+{
+    background-color: green;
+    font-weight: 500;
+    font-size: large;
+    border: 1px solid black;
+    padding: 5px;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top:10px;
+}
+
+.visible-color-carousel
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.invisible-color-carousel
+{
+    display: none;
+}
+
+.colors
+{
+    position: relative;
+    height: 5vh;
+    width: 5vw;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    border: 2px groove black;
+    
+}
+
+.colors:hover
+{
+    transform: scale(1.2);
+}
